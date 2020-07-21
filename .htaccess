@@ -1,0 +1,5 @@
+# BLOQUEAR ATAQUE DE EXPECT-CT #
+# BLOCK EXPECT-CT ATTACK #
+<IfModule mod_headers.c>
+    Header set Expect-CT "max-age=604800, enforce"
+</IfModule>
